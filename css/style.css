@@ -1,0 +1,92 @@
+body {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+.main-content {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-icon {
+    display: flex;
+    align-items: center;
+}
+#heading {
+    font-family: serif;
+    color: #f7d7c8;
+    font-size: 72px;
+    font-weight: 400;
+}
+.main-content .name {
+    color: #f7d7c8;
+    font-size: 20px;
+}
+
+
+.profile-img {
+    display: block;
+    width: 386px;
+    height: 386px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.article {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(158, 158, 158);
+    line-height: 28px;
+}
+
+.social-icons {
+    margin: 30px 0;
+}
+
+.social-icons .twitter {
+    padding: 0 20px;
+}
+.about-me {
+    display: flex;
+    gap: 3;
+    justify-content: space-between;
+    width: 80%;
+}
+h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #f7d7c8;
+    line-height: 52px;
+}
+.sample {
+    font-family: monospace, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+h4 {
+    color: #f7d7c8;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.chat-now {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+.text-center {
+    text-align: center;
+}
+.one{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 79px;
+}
